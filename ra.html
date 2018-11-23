@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test Aframe with AR</title>
+    <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
+    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+
+</head>
+
+<body style='margin : 0px; overflow: hidden;'>
+    <a-scene embedded arjs>
+
+        <!--<a-marker preset='custom' url='pattern-marker.patt'> -->
+        <a-marker-camera preset='hiro'>
+
+
+            <a-entity position="0.046 2.625 -0.661" geometry="primitive:sphere" material="color:#61ded8" scale="1.29 1.29 1.25">
+
+            </a-entity>
+            <a-entity position="0.512 2.204 0.561" scale="0.161 0.176 -0.125" geometry="primitive:circle" material="color:#f52703">
+
+            </a-entity>
+            <a-entity position="-0.438 2.202 0.629" scale="0.14 0.151 -0.137" geometry="primitive:circle" material="color:#f52703">
+
+            </a-entity>
+            <a-entity position="0.023 4.104 -0.256" scale="1.897 1.281 0.93" geometry="primitive:cone" material="color:#e0ba1f">
+
+            </a-entity>
+            <a-entity position="-0.362 2.696 0.754" rotation="-0.34377467707849396 14.32394487827058 -113.7894181129815" scale="0.04 0.548 0.62" geometry="primitive:plane" material="color:#000000">
+
+            </a-entity>
+            <a-entity position="0.432 2.743 0.685" rotation="-37.013 -9.912 -57.754" scale="0.044 0.597 0.732" geometry="primitive:plane" material="color:#000000">
+
+            </a-entity>
+            <a-entity position="0 1.702 0.482" rotation="0 0 89.55330337894766" scale="0.283 0.455 -0.086" geometry="primitive:sphere" material="color:#ff0000">
+
+            </a-entity>
+
+            </a-marker>
+    </a-scene>
+
+
+
+</body>
+
+</html>
